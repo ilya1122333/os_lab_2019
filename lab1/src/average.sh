@@ -8,8 +8,7 @@ for num in "$@"; do
 done
 
 int=$((sum / count))
-float=$(( (sum % count) * 100 / count ))
 
 echo "Количество аргументов: $count"
 echo "Сумма: $sum"
-echo "Среднее арифметическое: $int.$float"
+echo "Среднее арифметическое: $int"
